@@ -1,0 +1,89 @@
+    a.linka {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large 20pt;
+        color:rgb(0, 0, 0);
+        border-style:double;
+        border-bottom-width: 4px;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        color: black;
+        text-align: center;
+        }
+    p.ex1 {
+        text-align:right;
+        font-size: 15pt;
+        color: none
+    }   
+    h2.amp {
+        font-family: sans-serif;
+        font-size: 15pt;
+        font-style: none;
+        text-align: unset;
+        }
+    p.amp3 {
+        box-shadow: black;
+        -moz-box-shadow: 0 10px 0 #CCC;
+        -webkit-box-shadow:0 2px 20px #ccc;
+        text-shadow:2px 0px 3px #fff;
+        font-family: Arial;
+        font-size: 10pt;
+        text-align: left;
+    }
+    h2.amp :hover {
+        text-decoration:none;
+        }
+    h2.amp :active {
+        text-decoration: none;
+    }
+    p.amp1 {
+        text-align: right;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: none;
+    }
+    h1 :hover { 
+        text-decoration: none;
+    }
+    h1 :active { 
+        text-decoration: underline;
+    }
+    *{margin: 1; padding: 0;}
+    .menu {
+        border: 1px solid #c0c0c0;
+        float: left;
+    }
+   .menu li {
+        list-style-type: none;
+        text-decoration: none;
+        position: relative;
+        float:left;        
+        border-right:1px solid #c0c0c0;
+    }
+    .menu li a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black; 
+        text-decoration: none; 
+        padding: 7px; 
+        display: block;
+    }
+    .menu li a:hover {  
+        background: #333;
+        color: #fff;
+        box-shadow: white;
+        -moz-box-shadow:0 3px 10px 0 #CCC;
+        -webkit-box-shadow:0 3px 10px #ccc;
+        text-shadow:0px 0px 1px #fff;
+    }
+    .menu li ul {
+        position:absolute;
+        top:25px;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        display: none;
+    }
+    .menu li:hover ul, .menu li.over ul{
+        border: 1px solid #c0c0c0;
+        display: block;
+        width: auto;
+    }
